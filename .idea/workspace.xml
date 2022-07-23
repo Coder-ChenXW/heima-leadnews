@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="APP端文章查询完成-2" />
+    <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="完成配置网关，登录，app端文章展示">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_thirdparty_simple_xml_safe_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_minio_minio_7_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/freemarker-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/src/main/java/com/heima/freemarker/FreemarkerDemotApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/src/main/java/com/heima/freemarker/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/src/main/java/com/heima/freemarker/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/src/main/resources/templates/01-basic.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/src/main/resources/templates/02-list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/src/test/java/com/heima/freemarker/test/FreemarkerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/classes/com/heima/freemarker/FreemarkerDemotApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/classes/com/heima/freemarker/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/classes/com/heima/freemarker/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/classes/templates/01-basic.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/classes/templates/02-list.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/test-classes/com/heima/freemarker/test/FreemarkerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/minio-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/src/main/java/com/heima/minio/MinIOApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/src/test/java/com/heima/minio/test/MinIOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/target/classes/com/heima/minio/MinIOApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/target/test-classes/com/heima/minio/test/MinIOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +101,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -75,11 +110,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\java\springboot\heima-leadnews" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-gateway\heima-leadnews-app-gateway\src\main\resources" />
-      <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\pojos" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.heima.app.gateway.util" />
@@ -99,7 +134,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ArticleApplication">
+  <component name="RunManager" selected="Application.MinIOTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -111,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArticleApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.heima.article.ArticleApplication" />
-      <module name="heima-leadnews-article" />
+    <configuration name="MinIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heima.minio.test.MinIOTest" />
+      <module name="minio-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.heima.article.*" />
+          <option name="PATTERN" value="com.heima.minio.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,28 +159,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResponseResult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.heima.model.common.dtos.ResponseResult" />
-      <module name="heima-leadnews-model" />
+    <configuration name="FreemarkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freemarker-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.heima.model.common.dtos.*" />
+          <option name="PATTERN" value="com.heima.freemarker.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.heima.freemarker.test" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.freemarker.test.FreemarkerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-app-gateway" />
+    <configuration name="FreemarkerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freemarker-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.heima.app.gateway.*" />
+          <option name="PATTERN" value="com.heima.freemarker.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.app.gateway.AppGatewayApplication" />
+      <option name="PACKAGE_NAME" value="com.heima.freemarker.test" />
+      <option name="MAIN_CLASS_NAME" value="com.heima.freemarker.test.FreemarkerTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,35 +205,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-user" />
+    <configuration name="FreemarkerDemotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="freemarker-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.heima.user.*" />
+          <option name="PATTERN" value="com.heima.freemarker.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.user.UserApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.freemarker.FreemarkerDemotApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ResponseResult" />
-      <item itemvalue="Application.ArticleApplication" />
-      <item itemvalue="Spring Boot.UserApplication" />
-      <item itemvalue="Spring Boot.AppGatewayApplication" />
       <item itemvalue="Spring Boot.ArticleApplication" />
+      <item itemvalue="Spring Boot.FreemarkerDemotApplication" />
+      <item itemvalue="JUnit.FreemarkerTest.test" />
+      <item itemvalue="JUnit.FreemarkerTest" />
+      <item itemvalue="Application.MinIOTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinIOTest" />
+        <item itemvalue="JUnit.FreemarkerTest.test" />
+        <item itemvalue="JUnit.FreemarkerTest" />
+        <item itemvalue="Spring Boot.FreemarkerDemotApplication" />
         <item itemvalue="Spring Boot.ArticleApplication" />
-        <item itemvalue="Spring Boot.AppGatewayApplication" />
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Application.ArticleApplication" />
-        <item itemvalue="Application.ResponseResult" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +255,7 @@
       <workItem from="1658485597634" duration="3877000" />
       <workItem from="1658489609847" duration="8723000" />
       <workItem from="1658532608067" duration="13641000" />
-      <workItem from="1658547873299" duration="1302000" />
+      <workItem from="1658547873299" duration="9588000" />
     </task>
     <task id="LOCAL-00001" summary="APP端文章查询完成">
       <created>1658546606328</created>
@@ -226,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658546606328</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成配置网关，登录，app端文章展示">
+      <created>1658549533248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658549533248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +359,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="APP端文章查询完成" />
     <MESSAGE value="APP端文章查询完成-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="APP端文章查询完成-2" />
+    <MESSAGE value="完成配置网关，登录，app文章展示" />
+    <MESSAGE value="完成配置网关，登录，app端文章展示" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成配置网关，登录，app端文章展示" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
