@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.dropwizard.metrics:metrics-core:4.1.17">
+    <CLASSES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/io/dropwizard/metrics/metrics-core/4.1.17/metrics-core-4.1.17.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/io/dropwizard/metrics/metrics-core/4.1.17/metrics-core-4.1.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/io/dropwizard/metrics/metrics-core/4.1.17/metrics-core-4.1.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

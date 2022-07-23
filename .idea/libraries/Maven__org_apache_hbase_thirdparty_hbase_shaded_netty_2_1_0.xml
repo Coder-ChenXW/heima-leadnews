@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.hbase.thirdparty:hbase-shaded-netty:2.1.0">
+    <CLASSES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: commons-codec:commons-codec:1.12">
+    <CLASSES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/commons-codec/commons-codec/1.12/commons-codec-1.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/commons-codec/commons-codec/1.12/commons-codec-1.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/commons-codec/commons-codec/1.12/commons-codec-1.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: io.reactivex:rxnetty:0.4.9">
+    <CLASSES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/io/reactivex/rxnetty/0.4.9/rxnetty-0.4.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

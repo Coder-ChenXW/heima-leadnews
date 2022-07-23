@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.htrace:htrace-core4:4.2.0-incubating">
+    <CLASSES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/apache/htrace/htrace-core4/4.2.0-incubating/htrace-core4-4.2.0-incubating.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/apache/htrace/htrace-core4/4.2.0-incubating/htrace-core4-4.2.0-incubating-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/apache/htrace/htrace-core4/4.2.0-incubating/htrace-core4-4.2.0-incubating-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
