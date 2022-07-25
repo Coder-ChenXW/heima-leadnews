@@ -22,6 +22,6 @@ public interface WmMaterialService extends IService<WmMaterial> {
      * @Author: ChenXW
      * @Date: 21:01 2022/7/24
      */
-    public ResponseResult findList(WmMaterialDto dto);
+    public ResponseResult findList( WmMaterialDto dto);
 
 }
