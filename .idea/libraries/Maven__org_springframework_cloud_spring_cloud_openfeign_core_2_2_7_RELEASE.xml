@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.2.7.RELEASE">
+    <CLASSES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/springframework/cloud/spring-cloud-openfeign-core/2.2.7.RELEASE/spring-cloud-openfeign-core-2.2.7.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/springframework/cloud/spring-cloud-openfeign-core/2.2.7.RELEASE/spring-cloud-openfeign-core-2.2.7.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/springframework/cloud/spring-cloud-openfeign-core/2.2.7.RELEASE/spring-cloud-openfeign-core-2.2.7.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
