@@ -6,7 +6,10 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
 @FeignClient("leadnews-article")
 public interface IArticleClient {
 
