@@ -6,6 +6,7 @@ import com.heima.article.mapper.ApArticleConfigMapper;
 import com.heima.article.mapper.ApArticleContentMapper;
 import com.heima.article.mapper.ApArticleMapper;
 import com.heima.article.service.ApArticleService;
+import com.heima.article.service.ArticleFreemarkerService;
 import com.heima.common.constants.ArticleConstants;
 import com.heima.model.article.dtos.ArticleDto;
 import com.heima.model.article.dtos.ArticleHomeDto;
@@ -15,7 +16,7 @@ import com.heima.model.article.pojos.ApArticleContent;
 import com.heima.model.common.dtos.ResponseResult;
 import com.heima.model.common.enums.AppHttpCodeEnum;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -23,7 +24,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
-
 
 @Service
 @Transactional
@@ -82,61 +82,41 @@ public class ApArticleServiceImpl extends ServiceImpl<ApArticleMapper, ApArticle
     @Autowired
     private ApArticleContentMapper apArticleContentMapper;
 
+    @Autowired
+    private ArticleFreemarkerService articleFreemarkerService;
+
     /**
      * @param dto
      * @Function: 功能描述 保存app端相关文章
      * @Author: ChenXW
-<<<<<<< HEAD
      * @Date: 10:38 2022/7/27
-=======
-     * @Date: 18:41 2022/7/26
->>>>>>> origin/master
      */
     @Override
     public ResponseResult saveArticle(ArticleDto dto) {
-        //检查参数
-<<<<<<< HEAD
-        if (dto==null){
-=======
-        if (dto == null) {
->>>>>>> origin/master
-            return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
 
-        ApArticle apArticle=new ApArticle();
-        BeanUtils.copyProperties(dto,apArticle);
+        //检查参数
+        if (dto == null) {
+            return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);
+        }
+        ApArticle apArticle = new ApArticle();
+        BeanUtils.copyProperties(dto, apArticle);
 
-<<<<<<< HEAD
         //判断是否存在id
-        if (dto.getId()==null){
-            //不存在id 保存 文章 文章配置 文章内容
-
-            //保存文章
-=======
-
+        //不存在id 保存 文章 文章配置 文章内容
+        //保存文章
         //判断是否存在id
         if (dto.getId() == null) {
             //不存在id 保存 文章 文章配置 文章内容
->>>>>>> origin/master
             save(apArticle);
 
             //保存配置
-            ApArticleConfig apArticleConfig=new ApArticleConfig(apArticle.getId());
-<<<<<<< HEAD
-            apArticleConfigMapper.insert(apArticleConfig);
-
-            //保存文章内容
-            ApArticleContent apArticleContent=new ApArticleContent();
-            apArticleContent.setArticleId(apArticle.getId());
-            apArticleContent.setContent(dto.getContent());
-            apArticleContentMapper.insert(apArticleContent);
-
-        }else {
-            //存在id 修改
-
-            //修改文章
-=======
-//            apArticleConfig.setArticleId(apArticle.getId());
+            ApArticleConfig apArticleConfig = new ApArticleConfig(apArticle.getId());
             apArticleConfigMapper.insert(apArticleConfig);
 
             //保存文章内容
@@ -144,10 +124,10 @@ public class ApArticleServiceImpl extends ServiceImpl<ApArticleMapper, ApArticle
             apArticleContent.setArticleId(apArticle.getId());
             apArticleContent.setContent(dto.getContent());
             apArticleContentMapper.insert(apArticleContent);
+
         } else {
             //存在id 修改 文章 文章内容
             //修改  文章
->>>>>>> origin/master
             updateById(apArticle);
 
             //修改文章内容
@@ -155,6 +135,9 @@ public class ApArticleServiceImpl extends ServiceImpl<ApArticleMapper, ApArticle
             apArticleContent.setContent(dto.getContent());
             apArticleContentMapper.updateById(apArticleContent);
         }
+
+        //异步调用上传到minio中
+        articleFreemarkerService.buildArticleToMinIo(apArticle,dto.getContent());
 
 
         //结果返回 文章的id

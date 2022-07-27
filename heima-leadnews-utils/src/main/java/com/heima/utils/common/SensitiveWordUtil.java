@@ -119,5 +119,10 @@ public class SensitiveWordUtil {
         String content="我是一个好人，并不会卖冰毒，也不操练法轮功,我真的不卖冰毒";
         Map<String, Integer> map = matchWords(content);
         System.out.println(map);
+        if (map.size()>0){
+            System.out.println(map);
+        }else {
+            System.out.println("没有找到敏感词");
+        }
     }
 }

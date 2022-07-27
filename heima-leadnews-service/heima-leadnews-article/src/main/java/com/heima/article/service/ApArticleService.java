@@ -22,14 +22,8 @@ public interface ApArticleService extends IService<ApArticle> {
     /** 
      * @Function: 功能描述 保存app端相关文章
      * @Author: ChenXW
-<<<<<<< HEAD
      * @Date: 10:38 2022/7/27
      */
     public ResponseResult saveArticle(ArticleDto dto);
 
-=======
-     * @Date: 18:41 2022/7/26
-     */
-    public ResponseResult saveArticle(ArticleDto dto);
->>>>>>> origin/master
 }

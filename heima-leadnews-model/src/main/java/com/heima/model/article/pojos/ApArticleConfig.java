@@ -30,10 +30,7 @@ public class ApArticleConfig implements Serializable {
         this.isComment=true;
     }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
     @TableId(value = "id",type = IdType.ID_WORKER)
     private Long id;
 
