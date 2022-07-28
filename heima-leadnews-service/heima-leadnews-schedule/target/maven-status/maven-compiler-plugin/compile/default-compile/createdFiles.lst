@@ -1,5 +1,6 @@
 com\heima\schedule\service\impl\TaskServiceImpl.class
 com\heima\schedule\mapper\TaskinfoMapper.class
 com\heima\schedule\ScheduleApplication.class
+com\heima\schedule\feign\ScheduleClient.class
 com\heima\schedule\mapper\TaskinfoLogsMapper.class
 com\heima\schedule\service\TaskService.class

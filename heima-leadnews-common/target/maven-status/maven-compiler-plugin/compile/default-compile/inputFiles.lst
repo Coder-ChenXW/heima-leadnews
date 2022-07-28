@@ -1,12 +1,14 @@
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\aliyun\util\UploadCredentials.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\exception\CustomException.java
-E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\swagger\Swagger2Configuration.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\WemediaConstants.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\redis\CacheService.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\aliyun\GreenImageScan.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\aliyun\util\ClientUploader.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\aliyun\util\CustomLibUploader.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\swagger\SwaggerConfiguration.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\tess4j\Tess4jClient.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\aliyun\GreenTextScan.java
-E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\ArticleConstants.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\exception\ExceptionCatch.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\swagger\Swagger2Configuration.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\ScheduleConstants.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\ArticleConstants.java

@@ -1,3 +1,4 @@
+com\heima\model\common\enums\TaskTypeEnum.class
 com\heima\model\schedule\pojos\TaskinfoLogs.class
 com\heima\model\schedule\pojos\Taskinfo.class
 com\heima\model\schedule\dtos\Task.class

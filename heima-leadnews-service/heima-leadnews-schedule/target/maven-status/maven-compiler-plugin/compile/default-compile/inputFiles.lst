@@ -1,4 +1,5 @@
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-schedule\src\main\java\com\heima\schedule\ScheduleApplication.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-schedule\src\main\java\com\heima\schedule\feign\ScheduleClient.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-schedule\src\main\java\com\heima\schedule\service\impl\TaskServiceImpl.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-schedule\src\main\java\com\heima\schedule\mapper\TaskinfoMapper.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-schedule\src\main\java\com\heima\schedule\service\TaskService.java

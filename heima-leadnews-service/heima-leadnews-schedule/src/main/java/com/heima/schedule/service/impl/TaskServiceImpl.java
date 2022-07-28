@@ -1,6 +1,7 @@
 package com.heima.schedule.service.impl;
 
 import com.alibaba.fastjson.JSON;
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.heima.common.constants.ScheduleConstants;
 import com.heima.common.redis.CacheService;
 import com.heima.model.schedule.dtos.Task;
@@ -11,15 +12,19 @@ import com.heima.schedule.mapper.TaskinfoMapper;
 import com.heima.schedule.service.TaskService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
+import org.checkerframework.checker.units.qual.C;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.PostMapping;
 
+import javax.annotation.PostConstruct;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 import java.util.Set;
 
 
@@ -80,20 +85,20 @@ public class TaskServiceImpl implements TaskService {
     @Override
     public Task poll(int type, int priority) {
 
-        Task task=null;
+        Task task = null;
 
         try {
             String key = type + "_" + priority;
 
             //从redis中拉取数据
             String task_json = cacheService.lRightPop(ScheduleConstants.TOPIC + key);
-            if (StringUtils.isNotBlank(task_json)){
+            if (StringUtils.isNotBlank(task_json)) {
                 task = JSON.parseObject(task_json, Task.class);
 
                 //修改数据库信息
-                updateDb(task.getTaskId(),ScheduleConstants.EXECUTED);
+                updateDb(task.getTaskId(), ScheduleConstants.EXECUTED);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error("poll task exception");
         }
@@ -222,21 +227,71 @@ public class TaskServiceImpl implements TaskService {
      */
     @Scheduled(cron = "0 */1 * * * ?")
     public void refresh() {
-        System.out.println(System.currentTimeMillis() / 1000 + "执行了定时任务");
 
-        // 获取所有未来数据集合的key值
-        Set<String> futureKeys = cacheService.scan(ScheduleConstants.FUTURE + "*");// future_*
-        for (String futureKey : futureKeys) { // future_250_250
+        String token = cacheService.tryLock("FUTRUE_TASK_SYNC", 1000 * 30);
 
-            String topicKey = ScheduleConstants.TOPIC + futureKey.split(ScheduleConstants.FUTURE)[1];
-            //获取该组key下当前需要消费的任务数据
-            Set<String> tasks = cacheService.zRangeByScore(futureKey, 0, System.currentTimeMillis());
-            if (!tasks.isEmpty()) {
-                //将这些任务数据添加到消费者队列中
-                cacheService.refreshWithPipeline(futureKey, topicKey, tasks);
-                System.out.println("成功的将" + futureKey + "下的当前需要执行的任务数据刷新到" + topicKey + "下");
+        if (StringUtils.isNotBlank(token)) {
+            System.out.println(System.currentTimeMillis() / 1000 + "执行了定时任务");
+
+            // 获取所有未来数据集合的key值
+            Set<String> futureKeys = cacheService.scan(ScheduleConstants.FUTURE + "*");// future_*
+            for (String futureKey : futureKeys) { // future_250_250
+
+                String topicKey = ScheduleConstants.TOPIC + futureKey.split(ScheduleConstants.FUTURE)[1];
+                //获取该组key下当前需要消费的任务数据
+                Set<String> tasks = cacheService.zRangeByScore(futureKey, 0, System.currentTimeMillis());
+                if (!tasks.isEmpty()) {
+                    //将这些任务数据添加到消费者队列中
+                    cacheService.refreshWithPipeline(futureKey, topicKey, tasks);
+                    System.out.println("成功的将" + futureKey + "下的当前需要执行的任务数据刷新到" + topicKey + "下");
+                }
             }
         }
+    }
+
+
+    /**
+     * @Function: 功能描述 数据库任务定时同步到redis中
+     * @Author: ChenXW
+     * @Date: 17:24 2022/7/28
+     */
+    @PostConstruct
+    @Scheduled(cron = "0 */5 * * * ?")
+    public void reloadData() {
+
+        //清理缓存中的数据 list zset
+        clearCache();
+
+        //查询符合条件的任务 小于未来5分钟的数据
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.MINUTE, 5);
+        List<Taskinfo> taskinfoList = taskinfoMapper.selectList(Wrappers.<Taskinfo>lambdaQuery().lt(Taskinfo::getExecuteTime, calendar.getTime()));
+
+        //把任务调价到redis中
+        if (taskinfoList != null && taskinfoList.size() > 0) {
+            for (Taskinfo taskinfo : taskinfoList) {
+                Task task = new Task();
+                BeanUtils.copyProperties(taskinfo, task);
+                task.setExecuteTime(taskinfo.getExecuteTime().getTime());
+                addTaskToCache(task);
+            }
+        }
+
+        log.info("数据库的任务同步到了redis");
+    }
+
+
+    /**
+     * @Function: 功能描述 清理缓存中的数据
+     * @Author: ChenXW
+     * @Date: 17:27 2022/7/28
+     */
+    public void clearCache() {
+        Set<String> topicKeys = cacheService.scan(ScheduleConstants.TOPIC + "*");
+        Set<String> futureKeys = cacheService.scan(ScheduleConstants.FUTURE + "*");
+        cacheService.delete(topicKeys);
+        cacheService.delete(futureKeys);
+
     }
 
 }

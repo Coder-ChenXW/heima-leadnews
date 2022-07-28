@@ -13,5 +13,7 @@ E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\BurstUtils.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\Base64Utils.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\Compute.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\ProtostuffUtil.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\DateUtils.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\JdkSerializeUtil.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\MD5Utils.java
