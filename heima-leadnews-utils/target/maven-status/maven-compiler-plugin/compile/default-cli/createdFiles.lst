@@ -3,6 +3,7 @@ com\heima\utils\common\AppJwtUtil.class
 com\heima\utils\common\Base64Utils.class
 com\heima\utils\common\SnowflakeIdWorker.class
 com\heima\utils\common\FileUtils.class
+com\heima\utils\thread\WmThreadLocalUtil.class
 com\heima\utils\common\SimHashUtils.class
 com\heima\utils\common\SensitiveWordUtil.class
 com\heima\utils\common\DateUtils.class

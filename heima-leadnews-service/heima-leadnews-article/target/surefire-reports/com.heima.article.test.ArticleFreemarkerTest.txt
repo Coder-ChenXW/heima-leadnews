@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.heima.article.test.ArticleFreemarkerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.817 s <<< FAILURE! - in com.heima.article.test.ArticleFreemarkerTest
+createStaticUrlTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Unable to read meta-data for class com.heima.common.aliyun.GreenTextScancom.heima.common.aliyun.GreenImageScan
+Caused by: java.io.FileNotFoundException: class path resource [com/heima/common/aliyun/GreenTextScancom/heima/common/aliyun/GreenImageScan.class] cannot be opened because it does not exist
+

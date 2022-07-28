@@ -1,4 +1,4 @@
-package com.heima.common.test4j;
+package com.heima.common.tess4j;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -14,7 +14,7 @@ import java.awt.image.BufferedImage;
 @Setter
 @Component
 @ConfigurationProperties(prefix = "tess4j")
-public class Test4jClient {
+public class Tess4jClient {
 
     private String dataPath;
     private String language;

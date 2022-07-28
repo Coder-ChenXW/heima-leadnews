@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public interface ApArticleService extends IService<ApArticle> {
 
-    /** 
+    /**
      * @Function: 功能描述 加载文章列表 1更多 2最新
      * @Author: ChenXW
      * @Date: 20:30 2022/7/22
@@ -19,7 +19,7 @@ public interface ApArticleService extends IService<ApArticle> {
     public ResponseResult load(ArticleHomeDto dto,Short type);
 
 
-    /** 
+    /**
      * @Function: 功能描述 保存app端相关文章
      * @Author: ChenXW
      * @Date: 10:38 2022/7/27

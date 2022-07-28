@@ -1,5 +1,10 @@
+com\heima\article\ArticleApplication.class
+com\heima\article\feign\ArticleClient.class
 com\heima\article\service\ApArticleService.class
 com\heima\article\controller\v1\ArticleHomeController.class
+com\heima\article\mapper\ApArticleConfigMapper.class
+com\heima\article\mapper\ApArticleContentMapper.class
 com\heima\article\service\impl\ApArticleServiceImpl.class
-com\heima\article\ArticleApplication.class
+com\heima\article\service\impl\ArticleFreemarkerServiceImpl.class
+com\heima\article\service\ArticleFreemarkerService.class
 com\heima\article\mapper\ApArticleMapper.class

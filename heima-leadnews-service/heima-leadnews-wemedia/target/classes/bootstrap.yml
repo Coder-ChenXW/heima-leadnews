@@ -10,3 +10,7 @@ spring:
       config:
         server-addr: 192.168.200.130:8848
         file-extension: yml
+
+tess4j:
+  data-path: D:\黑马\2022\黑马头条\头条\day04-自媒体文章审核\资料\tessdata
+  language: chi_sim

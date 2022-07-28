@@ -1,5 +1,13 @@
+com\heima\common\aliyun\GreenTextScan.class
+com\heima\common\aliyun\GreenImageScan.class
+com\heima\common\tess4j\Tess4jClient.class
 com\heima\common\swagger\SwaggerConfiguration.class
+com\heima\common\aliyun\util\UploadCredentials.class
+com\heima\common\constants\WemediaConstants.class
 com\heima\common\exception\CustomException.class
+META-INF\spring-configuration-metadata.json
 com\heima\common\exception\ExceptionCatch.class
+com\heima\common\aliyun\util\ClientUploader.class
 com\heima\common\swagger\Swagger2Configuration.class
 com\heima\common\constants\ArticleConstants.class
+com\heima\common\aliyun\util\CustomLibUploader.class

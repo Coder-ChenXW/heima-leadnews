@@ -6,6 +6,7 @@ E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\dtos\ArticleDto.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\dtos\WmNewsDto.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\pojos\WmUser.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\pojos\WmSensitive.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\pojos\ApArticle.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\user\dtos\LoginDto.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\pojos\WmNewsMaterial.java

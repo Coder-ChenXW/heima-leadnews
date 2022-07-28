@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.heima.apis.article.IArticleClient;
 import com.heima.common.aliyun.GreenImageScan;
 import com.heima.common.aliyun.GreenTextScan;
-import com.heima.common.test4j.Test4jClient;
+import com.heima.common.tess4j.Tess4jClient;
 import com.heima.file.service.FileStorageService;
 import com.heima.model.article.dtos.ArticleDto;
 import com.heima.model.common.dtos.ResponseResult;
@@ -18,13 +18,11 @@ import com.heima.wemedia.mapper.WmChannelMapper;
 import com.heima.wemedia.mapper.WmNewsMapper;
 import com.heima.wemedia.mapper.WmSensitiveMapper;
 import com.heima.wemedia.mapper.WmUserMapper;
-import com.heima.wemedia.service.WmChannelService;
 import com.heima.wemedia.service.WmNewsAutoScanService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Import;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -32,7 +30,6 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
-import java.lang.reflect.Array;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -176,7 +173,7 @@ public class WmNewsAutoScanServiceImpl implements WmNewsAutoScanService {
     private GreenImageScan greenImageScan;
 
     @Autowired
-    private Test4jClient test4jClient;
+    private Tess4jClient tess4jClient;
 
     /**
      * @Function: 功能描述 审核图片
@@ -204,7 +201,7 @@ public class WmNewsAutoScanServiceImpl implements WmNewsAutoScanService {
                 ByteArrayInputStream in = new ByteArrayInputStream(bytes);
                 BufferedImage bufferedImage = ImageIO.read(in);
                 //图片识别
-                String result = test4jClient.doOCR(bufferedImage);
+                String result = tess4jClient.doOCR(bufferedImage);
 
                 //过滤文字
                 boolean isSensitive = handleSensitiveScan(result, wmNews);
