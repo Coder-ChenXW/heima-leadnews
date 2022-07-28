@@ -16,6 +16,7 @@
         <module name="heima-leadnews-feign-api" />
         <module name="heima-leadnews-user" />
         <module name="heima-leadnews-article" />
+        <module name="heima-leadnews-schedule" />
         <module name="heima-leadnews-utils" />
         <module name="heima-leadnews-app-gateway" />
         <module name="heima-leadnews-common" />
@@ -34,6 +35,7 @@
       <module name="heima-leadnews-feign-api" target="1.8" />
       <module name="heima-leadnews-gateway" target="1.8" />
       <module name="heima-leadnews-model" target="1.8" />
+      <module name="heima-leadnews-schedule" target="1.8" />
       <module name="heima-leadnews-service" target="1.8" />
       <module name="heima-leadnews-test" target="1.8" />
       <module name="heima-leadnews-user" target="1.8" />
@@ -57,6 +59,7 @@
       <module name="heima-leadnews-feign-api" options="-parameters" />
       <module name="heima-leadnews-gateway" options="" />
       <module name="heima-leadnews-model" options="-parameters" />
+      <module name="heima-leadnews-schedule" options="-parameters" />
       <module name="heima-leadnews-service" options="" />
       <module name="heima-leadnews-test" options="" />
       <module name="heima-leadnews-user" options="-parameters" />

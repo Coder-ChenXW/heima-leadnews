@@ -106,6 +106,7 @@ under the License.
       <module filepath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-user/heima-leadnews-user.iml"/>
       <module filepath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/heima-leadnews-article.iml"/>
       <module filepath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/heima-leadnews-wemedia.iml"/>
+      <module filepath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/heima-leadnews-schedule.iml"/>
       <module filepath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-service.iml"/>
       <module filepath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-app-gateway/heima-leadnews-app-gateway.iml"/>
       <module filepath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/heima-leadnews-wemedia-gateway.iml"/>
