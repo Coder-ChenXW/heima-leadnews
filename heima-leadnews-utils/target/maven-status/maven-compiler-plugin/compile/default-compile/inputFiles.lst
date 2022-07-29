@@ -1,5 +1,6 @@
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\SnowflakeIdWorker.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\ZipUtils.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\thread\AppThreadLocalUtil.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\AppJwtUtil.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\BCrypt.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common\DESUtils.java

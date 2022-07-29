@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.elasticsearch:elasticsearch-cli:7.4.0">
+    <CLASSES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/elasticsearch/elasticsearch-cli/7.4.0/elasticsearch-cli-7.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/elasticsearch/elasticsearch-cli/7.4.0/elasticsearch-cli-7.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/黑马/2022/黑马头条/头条/day01-环境搭建、SpringCloud微服务(注册发现、网关)/资料/仓库/repository_new/org/elasticsearch/elasticsearch-cli/7.4.0/elasticsearch-cli-7.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

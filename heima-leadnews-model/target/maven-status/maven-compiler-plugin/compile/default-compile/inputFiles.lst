@@ -6,6 +6,7 @@ E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\dtos\ArticleHomeDto.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\pojos\ApArticleContent.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\schedule\pojos\Taskinfo.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\search\vos\SearchArticleVo.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\user\pojos\ApUser.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\article\pojos\ApArticleConfig.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\common\enums\AppHttpCodeEnum.java
@@ -21,5 +22,6 @@ E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\common\dtos\PageRequestDto.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\dtos\WmLoginDto.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\pojos\WmChannel.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\search\dtos\UserSearchDto.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\dtos\WmMaterialDto.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\common\enums\TaskTypeEnum.java

@@ -1,2 +1,3 @@
 com\heima\utils\common\ProtostuffUtil.class
 com\heima\utils\common\JdkSerializeUtil.class
+com\heima\utils\thread\AppThreadLocalUtil.class

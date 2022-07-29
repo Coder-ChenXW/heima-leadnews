@@ -1,0 +1,14 @@
+com\heima\search\service\impl\ApAssociateWordsServiceImpl.class
+com\heima\search\pojos\ApAssociateWords.class
+com\heima\search\service\ApUserSearchService.class
+com\heima\search\pojos\ApUserSearch.class
+com\heima\search\service\impl\ApUserSearchServiceImpl.class
+com\heima\search\controller\v1\ArticleSearchController.class
+com\heima\search\config\WebMvcConfig.class
+com\heima\search\service\ArticleSearchService.class
+com\heima\search\service\impl\ArticleSearchServiceImpl.class
+com\heima\search\service\ApAssociateWordsService.class
+com\heima\search\interceptor\AppTokenInterceptor.class
+com\heima\search\controller\v1\ApAssociateWordsController.class
+com\heima\search\controller\v1\ApUserSearchController.class
+com\heima\search\listener\SyncArticleListener.class

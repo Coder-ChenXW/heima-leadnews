@@ -1,4 +1,7 @@
 com\heima\model\common\enums\TaskTypeEnum.class
 com\heima\model\schedule\pojos\TaskinfoLogs.class
+com\heima\model\search\dtos\HistorySearchDto.class
 com\heima\model\schedule\pojos\Taskinfo.class
 com\heima\model\schedule\dtos\Task.class
+com\heima\model\search\dtos\UserSearchDto.class
+com\heima\model\search\vos\SearchArticleVo.class
