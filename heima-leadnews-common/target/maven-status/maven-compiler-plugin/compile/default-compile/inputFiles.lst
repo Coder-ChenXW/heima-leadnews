@@ -1,6 +1,7 @@
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\aliyun\util\UploadCredentials.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\exception\CustomException.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\WemediaConstants.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\WmNewsMessageConstants.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\redis\CacheService.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\aliyun\GreenImageScan.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\aliyun\util\ClientUploader.java
