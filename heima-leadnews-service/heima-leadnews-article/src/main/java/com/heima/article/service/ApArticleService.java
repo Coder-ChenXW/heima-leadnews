@@ -19,6 +19,14 @@ public interface ApArticleService extends IService<ApArticle> {
     public ResponseResult load(ArticleHomeDto dto,Short type);
 
 
+    /** 
+     * @Function: 功能描述 加载文章列表首页
+     * @Author: ChenXW
+     * @Date: 15:32 2022/7/30
+     */
+    public ResponseResult load2(ArticleHomeDto dto,Short type,boolean firstPage);
+
+
     /**
      * @Function: 功能描述 保存app端相关文章
      * @Author: ChenXW

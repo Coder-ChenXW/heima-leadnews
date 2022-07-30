@@ -25,7 +25,8 @@ public class ArticleHomeController {
      */
     @PostMapping("/load")
     public ResponseResult load(@RequestBody ArticleHomeDto dto) {
-        return apArticleService.load(dto,ArticleConstants.LOADTYPE_LOAD_MORE);
+//        return apArticleService.load(dto,ArticleConstants.LOADTYPE_LOAD_MORE);
+        return apArticleService.load2(dto, ArticleConstants.LOADTYPE_LOAD_MORE, true);
     }
 
     /**
@@ -35,7 +36,7 @@ public class ArticleHomeController {
      */
     @PostMapping("/loadmore")
     public ResponseResult loadmore(@RequestBody ArticleHomeDto dto) {
-        return apArticleService.load(dto,ArticleConstants.LOADTYPE_LOAD_MORE);
+        return apArticleService.load(dto, ArticleConstants.LOADTYPE_LOAD_MORE);
     }
 
     /**
@@ -45,7 +46,7 @@ public class ArticleHomeController {
      */
     @PostMapping("/loadnew")
     public ResponseResult loadnew(@RequestBody ArticleHomeDto dto) {
-        return apArticleService.load(dto,ArticleConstants.LOADTYPE_LOAD_NEW);
+        return apArticleService.load(dto, ArticleConstants.LOADTYPE_LOAD_NEW);
     }
 
 }

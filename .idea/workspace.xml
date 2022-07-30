@@ -4,36 +4,107 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="完成kafka集成文章上下架">
+    <list default="true" id="604da608-9ffe-4565-807e-d184b0b7fdd0" name="Default Changelist" comment="完成文章搜索历史记录等相关功能">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_xuxueli_xxl_job_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_59_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_5_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/jackson/ConfusionDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/jackson/ConfusionDeserializerModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/jackson/ConfusionModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/jackson/ConfusionSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/jackson/ConfusionSerializerModifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/jackson/InitJacksonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/jackson/ConfusionDeserializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/jackson/ConfusionDeserializerModifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/jackson/ConfusionModule.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/jackson/ConfusionSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/jackson/ConfusionSerializerModifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/jackson/InitJacksonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-feign-api/src/main/java/com/heima/apis/wemedia/IWemediaClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-feign-api/target/classes/com/heima/apis/wemedia/IWemediaClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/article/vos/HotArticleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/src/main/java/com/heima/model/common/annotation/IdEncrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/article/vos/HotArticleVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-model/target/classes/com/heima/model/common/annotation/IdEncrypt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/interceptor/AppTokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/job/ComputeHotArticleJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/HotArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/impl/HotArticleServerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/test/java/com/heima/article/service/impl/HotArticleServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/config/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/config/XxlJobConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/interceptor/AppTokenInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/job/ComputeHotArticleJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/service/HotArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/service/impl/HotArticleServerImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/test-classes/com/heima/article/service/impl/HotArticleServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/feign/WemediaClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/classes/com/heima/wemedia/feign/WemediaClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/src/main/java/com/heima/xxljob/XxlJobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/src/main/java/com/heima/xxljob/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/src/main/java/com/heima/xxljob/job/HelloJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/target/classes/com/heima/xxljob/XxlJobApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/target/classes/com/heima/xxljob/config/XxlJobConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/target/classes/com/heima/xxljob/job/HelloJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/target/xxljob-demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heima-leadnews-test/xxljob-demo/xxljob-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/target/heima-file-starter-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-basic/heima-file-starter/target/heima-file-starter-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/constants/ArticleConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/java/com/heima/common/constants/ArticleConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/constants/ArticleConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/com/heima/common/constants/ArticleConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/classes/META-INF/spring.factories" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/heima-leadnews-common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/heima-leadnews-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-feign-api/target/heima-leadnews-feign-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-feign-api/target/heima-leadnews-feign-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-feign-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-feign-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-app-gateway/target/heima-leadnews-app-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-app-gateway/target/heima-leadnews-app-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/target/heima-leadnews-wemedia-gateway-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-gateway/heima-leadnews-wemedia-gateway/target/heima-leadnews-wemedia-gateway-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/heima-leadnews-model-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/heima-leadnews-model-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/impl/ArticleFreemarkerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/impl/ArticleFreemarkerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/service/impl/ArticleFreemarkerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/service/impl/ArticleFreemarkerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/heima-leadnews-article.iml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/heima-leadnews-article.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/ArticleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/ArticleApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/controller/v1/ArticleHomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/controller/v1/ArticleHomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/mapper/ApArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/mapper/ApArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/ApArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/ApArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/impl/ApArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article/service/impl/ApArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/resources/mapper/ApArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/resources/mapper/ApArticleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/ArticleApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/ArticleApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/controller/v1/ArticleHomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/controller/v1/ArticleHomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/mapper/ApArticleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/mapper/ApArticleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/service/ApArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/service/ApArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/service/impl/ApArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/com/heima/article/service/impl/ApArticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/mapper/ApArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/classes/mapper/ApArticleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/heima-leadnews-article-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/heima-leadnews-article-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/heima-leadnews-schedule-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-schedule/target/heima-leadnews-schedule-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-search/target/heima-leadnews-search-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-search/target/heima-leadnews-search-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-user/target/heima-leadnews-user-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-user/target/heima-leadnews-user-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/interceptor/WmTokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/src/main/java/com/heima/wemedia/interceptor/WmTokenInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/classes/com/heima/wemedia/interceptor/WmTokenInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/classes/com/heima/wemedia/interceptor/WmTokenInterceptor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/heima-leadnews-wemedia-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/heima-leadnews-wemedia-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-wemedia/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-test/es-init/target/es-init-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/es-init/target/es-init-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/freemarker-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/freemarker-demo/target/freemarker-demo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-test/kafka-demo/target/kafka-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/kafka-demo/target/kafka-demo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/target/minio-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/minio-demo/target/minio-demo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heima-leadnews-test/mongo-demo/target/mongo-demo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/mongo-demo/target/mongo-demo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/heima-leadnews-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/target/heima-leadnews-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/target/heima-leadnews-utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heima-leadnews-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/heima-leadnews-utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +116,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -105,8 +177,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="dynamic.classpath" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-search/src/main/java/com/heima/search/pojos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/heima-leadnews-service/heima-leadnews-article/src/main/java/com/heima/article" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -118,8 +192,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-search\src\main\java\com\heima\search\pojos" />
+      <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-article\src\main\java\com\heima\article" />
+      <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia" />
+      <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-feign-api\src\main\java\com\heima\apis" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-test" />
+      <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common" />
+      <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-search\src\main\java\com\heima\search\pojos" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-utils\src\main\java\com\heima\utils\common" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-schedule\src\test\java\com\heima\schedule\service" />
@@ -129,7 +207,6 @@
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\schedule\pojos" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-model\src\main\java\com\heima\model\wemedia\pojos" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-article\src\main\java\com\heima\article\mapper" />
-      <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\resources\mapper" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\mapper" />
@@ -137,6 +214,15 @@
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\resources\mapper" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\mapper" />
       <recent name="E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service\impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.heima.article.service.impl" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.heima.article.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.heima.search.config" />
@@ -164,7 +250,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MongoTest.testQuery">
+  <component name="RunManager" selected="Spring Boot.XxlJobApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -189,34 +275,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongoTest.saveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo-demo" />
+    <configuration name="MinIOTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.heima.minio.test.MinIOTest" />
+      <module name="minio-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.itheima.mongo.test.*" />
+          <option name="PATTERN" value="com.heima.minio.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.mongo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.mongo.test.MongoTest" />
-      <option name="METHOD_NAME" value="saveTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MongoTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mongo-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.mongo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima.mongo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.mongo.test.MongoTest" />
-      <option name="METHOD_NAME" value="testQuery" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,6 +291,19 @@
     <configuration name="AppGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="heima-leadnews-app-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.app.gateway.AppGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="heima-leadnews-article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.article.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.article.ArticleApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,19 +326,6 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.schedule.ScheduleApplication" />
       <option name="VM_PARAMETERS" value="-Dserver.port=51702" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="heima-leadnews-search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.heima.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.search.SearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -296,6 +363,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XxlJobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xxljob-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.heima.xxljob.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.heima.xxljob.XxlJobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ConsumerQuickStart - 2" />
       <item itemvalue="Spring Boot.AppGatewayApplication" />
@@ -304,17 +384,17 @@
       <item itemvalue="Spring Boot.ScheduleApplication-51702" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.WemediaApplication" />
-      <item itemvalue="Spring Boot.SearchApplication" />
-      <item itemvalue="JUnit.MongoTest.saveTest" />
-      <item itemvalue="JUnit.MongoTest.testQuery" />
+      <item itemvalue="Spring Boot.ArticleApplication" />
+      <item itemvalue="Application.MinIOTest" />
+      <item itemvalue="Spring Boot.XxlJobApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.SearchApplication" />
+        <item itemvalue="Spring Boot.ArticleApplication" />
         <item itemvalue="Spring Boot.WemediaApplication" />
-        <item itemvalue="JUnit.MongoTest.testQuery" />
-        <item itemvalue="JUnit.MongoTest.saveTest" />
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.XxlJobApplication" />
+        <item itemvalue="Application.MinIOTest" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +430,8 @@
       <workItem from="1658755719339" duration="48000" />
       <workItem from="1658816122540" duration="10224000" />
       <workItem from="1658977721358" duration="16889000" />
-      <workItem from="1659060499488" duration="19021000" />
+      <workItem from="1659060499488" duration="19351000" />
+      <workItem from="1659146724891" duration="8752000" />
     </task>
     <task id="LOCAL-00001" summary="APP端文章查询完成">
       <created>1658546606328</created>
@@ -450,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659081393007</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="完成文章搜索历史记录等相关功能">
+      <created>1659091639449</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659091639449</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +639,8 @@
     <MESSAGE value="完成延迟任务服务的实现" />
     <MESSAGE value="完成定时任务，延时加载" />
     <MESSAGE value="完成kafka集成文章上下架" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成kafka集成文章上下架" />
+    <MESSAGE value="完成文章搜索历史记录等相关功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成文章搜索历史记录等相关功能" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

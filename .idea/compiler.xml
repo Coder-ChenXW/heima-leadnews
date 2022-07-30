@@ -17,6 +17,7 @@
         <module name="heima-leadnews-user" />
         <module name="heima-leadnews-article" />
         <module name="kafka-demo" />
+        <module name="xxljob-demo" />
         <module name="es-init" />
         <module name="heima-leadnews-schedule" />
         <module name="heima-leadnews-utils" />
@@ -52,6 +53,7 @@
       <module name="minio-demo" target="1.8" />
       <module name="mongo-demo" target="1.8" />
       <module name="tess4j-demo" target="1.8" />
+      <module name="xxljob-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -80,6 +82,7 @@
       <module name="minio-demo" options="-parameters" />
       <module name="mongo-demo" options="-parameters" />
       <module name="tess4j-demo" options="-parameters" />
+      <module name="xxljob-demo" options="-parameters" />
     </option>
   </component>
 </project>

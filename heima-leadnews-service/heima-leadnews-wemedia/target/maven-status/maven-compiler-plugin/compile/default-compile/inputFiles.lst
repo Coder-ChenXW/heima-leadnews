@@ -7,6 +7,7 @@ E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service\impl\WmNewsTaskServiceImpl.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service\WmMaterialService.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service\WmChannelService.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\feign\WemediaClient.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service\impl\WmChannelServiceImpl.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service\WmNewsTaskService.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-service\heima-leadnews-wemedia\src\main\java\com\heima\wemedia\service\impl\WmUserServiceImpl.java

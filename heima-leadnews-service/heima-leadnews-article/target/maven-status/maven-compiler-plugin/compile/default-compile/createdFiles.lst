@@ -1,3 +1,9 @@
+com\heima\article\service\HotArticleService.class
+com\heima\article\config\XxlJobConfig.class
+com\heima\article\job\ComputeHotArticleJob.class
 com\heima\article\listener\ArtilceIsDownListener.class
 com\heima\article\service\ApArticleConfigService.class
 com\heima\article\service\impl\ApArticleConfigServiceImpl.class
+com\heima\article\interceptor\AppTokenInterceptor.class
+com\heima\article\service\impl\HotArticleServerImpl.class
+com\heima\article\config\WebMvcConfig.class
