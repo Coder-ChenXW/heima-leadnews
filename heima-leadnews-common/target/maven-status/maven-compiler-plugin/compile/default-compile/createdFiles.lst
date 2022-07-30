@@ -1,5 +1,6 @@
 com\heima\common\jackson\ConfusionModule.class
 com\heima\common\jackson\ConfusionSerializer.class
+com\heima\common\constants\BehaviorConstants.class
 com\heima\common\constants\ScheduleConstants.class
 com\heima\common\redis\CacheService$2.class
 com\heima\common\jackson\ConfusionSerializerModifier.class
@@ -8,4 +9,5 @@ com\heima\common\redis\CacheService.class
 com\heima\common\constants\WmNewsMessageConstants.class
 com\heima\common\jackson\InitJacksonConfig.class
 com\heima\common\redis\CacheService$1.class
+com\heima\common\constants\HotArticleConstants.class
 com\heima\common\jackson\ConfusionDeserializer.class

@@ -60,6 +60,8 @@
     <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.7.3" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.30" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.58" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.kafka:kafka-streams:2.5.1" level="project" />
+    <orderEntry type="library" name="Maven: org.rocksdb:rocksdbjni:5.18.3" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-log4j2:2.3.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.13.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.13.3" level="project" />

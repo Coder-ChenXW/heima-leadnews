@@ -1,9 +1,16 @@
+com\heima\model\mess\UpdateArticleMess$UpdateArticleType.class
 com\heima\model\common\enums\TaskTypeEnum.class
 com\heima\model\schedule\pojos\TaskinfoLogs.class
 com\heima\model\search\dtos\HistorySearchDto.class
 com\heima\model\schedule\pojos\Taskinfo.class
 com\heima\model\schedule\dtos\Task.class
+com\heima\model\mess\UpdateArticleMess.class
+com\heima\model\behavior\dtos\ReadBehaviorDto.class
+com\heima\model\mess\ArticleVisitStreamMess.class
 com\heima\model\search\dtos\UserSearchDto.class
 com\heima\model\search\vos\SearchArticleVo.class
+com\heima\model\behavior\dtos\LikesBehaviorDto.class
 com\heima\model\article\vos\HotArticleVo.class
+com\heima\model\behavior\dtos\FollowBehaviorDto.class
+com\heima\model\behavior\dtos\UnLikesBehaviorDto.class
 com\heima\model\common\annotation\IdEncrypt.class

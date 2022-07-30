@@ -1,5 +1,6 @@
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\aliyun\util\UploadCredentials.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\exception\CustomException.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\BehaviorConstants.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\WemediaConstants.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\WmNewsMessageConstants.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\redis\CacheService.java
@@ -17,5 +18,6 @@ E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\co
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\ScheduleConstants.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\jackson\ConfusionSerializerModifier.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\jackson\InitJacksonConfig.java
+E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\HotArticleConstants.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\jackson\ConfusionSerializer.java
 E:\project\java\springboot\heima-leadnews\heima-leadnews-common\src\main\java\com\heima\common\constants\ArticleConstants.java

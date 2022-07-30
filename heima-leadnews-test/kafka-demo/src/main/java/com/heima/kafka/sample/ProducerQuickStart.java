@@ -33,7 +33,7 @@ public class ProducerQuickStart {
         KafkaProducer<String, String> producer = new KafkaProducer<String, String>(prop);
 
         //发送消息
-        ProducerRecord<String, String> kvProducerRecord = new ProducerRecord<String, String>("topic-first", 0, "key-01", "hello Kafka");
+        ProducerRecord<String, String> kvProducerRecord = new ProducerRecord<String, String>("test-topic-input", 0, "key-01", "hello Kafka");
         //同步发送消息
 //        RecordMetadata recordMetadata = producer.send(kvProducerRecord).get();
 //        System.out.println(recordMetadata.offset());
